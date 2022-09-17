@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ParentSearch {
+  margin-top: 20px;
+}
+.ChildSearch {
+  gap: 20px;
+}
+.input {
+  width: 527px;
+  height: 44px;
+  position: relative;
+  outline: none;
+  padding-left: 30px;
+}
+.Img2 {
+  position: absolute;
+  padding-right: 695px;
+  padding-top: 14px;
+}
+.btn1 {
+  height: 44px;
+  width: 180px;
+  background-color: #0061df;
+  border-color: #0061df;
+  color: white;
+  cursor: pointer;
+}
+.btn1:hover {
+  transform: scale(0.9);
+}
+.ChildSearch {
+  display: flex;
+  justify-content: center;
+}
+.ParentProperty {
+  margin-top: 50px;
+}
+.property {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
