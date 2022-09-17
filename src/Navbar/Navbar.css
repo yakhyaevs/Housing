@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainNav {
+  display: flex;
+  justify-content: space-around;
+  height: 64px;
+  background-color: #0d263b;
+}
+.SecondaryNav {
+  display: flex;
+  align-items: center;
+}
+h6 {
+  color: white;
+  margin-left: 40px;
+  margin-top: 0;
+  position: absolute;
+}
+.navLogo {
+  position: absolute;
+}
+.childText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.anchor {
+  color: white;
+  text-decoration: none;
+  transition: 2s;
+}
+.anchor:hover {
+  color: orange;
+}
+.navBtn {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border-color: white;
+  background-color: #0d263b;
+  color: white;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
