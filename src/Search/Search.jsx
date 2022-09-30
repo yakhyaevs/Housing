@@ -28,9 +28,10 @@ class Search extends React.Component {
         </div>
         <div className="ParentProperty">
           <h3>Properties</h3>
-          {/* <p className="property">
-            Nulla quis curabitur velit volutpat auctor bibendum consectetur sit.
-          </p> */}
+          <p className="property">
+            You can find any types of houses in this webpage... Thanks)))
+          </p>
+          {/* <p>Total number of Houses{this.state.name.length}</p> */}
           <div className="container"></div>
         </div>
 
