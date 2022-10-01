@@ -24,15 +24,51 @@ export default function App() {
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
         className="mySwiper"
       >
-        <SwiperSlide>House 1 </SwiperSlide>
-        <SwiperSlide>House 2</SwiperSlide>
-        <SwiperSlide>House 3 </SwiperSlide>
-        <SwiperSlide>House 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-container">
+            <h1 className="swiper-main__text">Skypool Apartment</h1>
+            <p className="swiper-secondary">
+              112 Glenwood Ave Hyde Park, Boston, MA
+            </p>
+            <button className="swiper-btn">Read More</button>
+          </div>{" "}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-container">
+            <h1 className="swiper-main__text">Skypool Apartment</h1>
+            <p className="swiper-secondary">
+              112 Glenwood Ave Hyde Park, Boston, MA
+            </p>
+            <button className="swiper-btn">Read More</button>
+          </div>{" "}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-container">
+            <h1 className="swiper-main__text">Skypool Apartment</h1>
+            <p className="swiper-secondary">
+              112 Glenwood Ave Hyde Park, Boston, MA
+            </p>
+            <button className="swiper-btn">Read More</button>
+          </div>{" "}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-container">
+            <h1 className="swiper-main__text">Skypool Apartment</h1>
+            <p className="swiper-secondary">
+              112 Glenwood Ave Hyde Park, Boston, MA
+            </p>
+            <button className="swiper-btn">Read More</button>
+          </div>{" "}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-container">
+            <h1 className="swiper-main__text">Skypool Apartment</h1>
+            <p className="swiper-secondary">
+              112 Glenwood Ave Hyde Park, Boston, MA
+            </p>
+            <button className="swiper-btn">Read More</button>
+          </div>{" "}
+        </SwiperSlide>
       </Swiper>
     </>
   );

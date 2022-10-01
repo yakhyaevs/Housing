@@ -1,33 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
 .swiper {
   width: 100%;
   height: 571px;
   margin: 40px 50px;
-
-  /* background-image: url("./Images/house.jpeg"); */
 }
 
+.swiper-container {
+  color: rgb(224, 224, 224);
+}
+.swiper-main__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 48px;
+  /* identical to box height, or 109% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.swiper-secondary {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+.swiper-btn {
+  width: 150px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid white;
+  color: #ffffff;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.swiper-btn:active {
+  width: 153px;
+  height: 36px;
+}
 .swiper-slide {
   text-align: center;
-  font-size: 89px;
-  /* background: #fff; */
-  background-image: url("./Images/house.jpeg");
+  /* font-size: 89px; */
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */ url("./Images/house.jpeg");
+
+  /* background-image: url("./Images/house.jpeg"); */
+
+  background-repeat: no-repeat;
+  background-size: 100vw 571px;
   height: 571px;
-  /* width: 100%; */
-  margin-top: 40px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -44,9 +73,9 @@ code {
   align-items: center;
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
