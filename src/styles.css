@@ -1,0 +1,81 @@
+.swiper {
+  width: 100%;
+  height: 571px;
+  margin: 40px 50px;
+}
+
+.swiper-container {
+  color: rgb(224, 224, 224);
+}
+.swiper-main__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 48px;
+  /* identical to box height, or 109% */
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.swiper-secondary {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+.swiper-btn {
+  width: 150px;
+  height: 35px;
+  background: rgba(0, 0, 0, 0.65);
+  border: 1px solid white;
+  color: #ffffff;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.swiper-btn:active {
+  width: 153px;
+  height: 36px;
+}
+.swiper-slide {
+  text-align: center;
+  /* font-size: 89px; */
+  background:
+        /* top, transparent black, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */ url("./Images/house.jpeg");
+
+  /* background-image: url("./Images/house.jpeg"); */
+
+  background-repeat: no-repeat;
+  background-size: 100vw 571px;
+  height: 571px;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

@@ -65,7 +65,7 @@ class Main extends Component {
               .toLocaleLowerCase()
               .includes(this.props.inputValue.toLocaleLowerCase()) && (
               <div className="cards">
-                <img className="sizeHouse" src={val.img} alt="House Image" />
+                <img className="sizeHouse" src={val.img} alt="Img" />
                 <p className="textCard">{val.name}</p>
                 <p className="cardText">{val.text2}</p>
               </div>
@@ -77,3 +77,4 @@ class Main extends Component {
 }
 
 export default Main;
+// swiper

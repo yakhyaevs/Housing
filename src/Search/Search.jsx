@@ -2,6 +2,7 @@ import React from "react";
 import Img2 from "../Images/Search.png";
 import "../Search/Search.css";
 import Name from "../Main/Main.jsx";
+import Swiper from "../Swiper.jsx";
 
 class Search extends React.Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class Search extends React.Component {
           <img className="Img2" src={Img2} alt="Error" />
           <button className="btn1"> Search</button>
         </div>
+        <Swiper />
         <div className="ParentProperty">
           <h3>Properties</h3>
           {/* <p className="property">
